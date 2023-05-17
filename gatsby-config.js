@@ -13,6 +13,7 @@ module.exports = {
     author: {
       name: `Haizuka in ashmd Inc.`,
       summary: `受託システム開発会社`,
+      url: `https://www.ashmd.biz`,
     },
     description: `主にAIを活用したプログラミング、システム開発の技術ブログ等`,
     siteUrl: `https://ashmd-biz.github.io/techblog/`,

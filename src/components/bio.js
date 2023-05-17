@@ -16,6 +16,7 @@ const Bio = () => {
         siteMetadata {
           author {
             name
+            url
             summary
           }
           social {
@@ -44,7 +45,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong>
+          Written by <strong><a href={`${author.url}`}>{author.name}</a></strong>
           {` `}
         </p>
       )}
