@@ -15,11 +15,8 @@ module.exports = {
       summary: `受託システム開発会社`,
       url: `https://www.ashmd.biz`,
     },
-    description: `主にAIを活用したプログラミング、システム開発の技術ブログ等`,
+    description: `主にAIを活用したプログラミング、システム開発の技術ブログ等 ブログの最終文章はChatGPTで整えて投稿しています。`,
     siteUrl: `https://ashmd-biz.github.io/techblog/`,
-    // social: {
-    //   twitter: `kylemathews`,
-    // },
   },
   plugins: [
     `gatsby-plugin-image`,
